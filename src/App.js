@@ -1,9 +1,10 @@
 import './App.css';
+import Typography from '@mui/material/Typography';
 
 function App() {
   return (
     <div>
-      <h1 style={{backgroundColor:'red',width:'500px'}}>Welcome to Pokemon World</h1>
+      <Typography variant='h1' color="red">Welcome to Pokemon World</Typography>
     </div>
   );
 }
